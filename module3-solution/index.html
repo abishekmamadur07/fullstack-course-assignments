@@ -1,1 +1,100 @@
 
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Module 3 Solution</title>
+</head>
+
+<body>
+	<header class="nav-header">
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="nav-container">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<p class="nav-brand">Food, LLC</p>
+					</div>
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#collapsable-nav" aria-expanded="true">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+						<li class="text-center">
+							<a href="#chicken-div">
+								<p class="item">Chicken</p>
+							</a>
+							<hr class="visible-xs">
+						</li>
+						<li class="text-center beef-item">
+							<a href="#beef-div">
+								<p class="item">Beef</p>
+							</a>
+							<hr class="visible-xs">
+						</li>
+						<li class="text-center sushi-item">
+							<a href="#sushi-div">
+								<p class="item">Sushi</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<h1 class="text-center">Our Menu</h1>
+
+	<div class="container">
+		<div class="tab-view">
+			<div class="box" id="chicken-div">
+				<div class="head-box">
+					<span class="header-1">
+						Chicken
+					</span>
+				</div>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+					the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+					of type and scrambled it to make a type specimen book.
+				</p>
+			</div>
+			<div class="box" id="beef-div">
+				<div class="head-box">
+					<span class="header-2">
+						Beef
+					</span>
+				</div>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+					the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+					of type and scrambled it to make a type specimen book.
+				</p>
+			</div>
+		</div>
+		<div class="box" id="sushi-div">
+			<div class="head-box">
+				<span class="header-3">
+					Sushi
+				</span>
+			</div>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+				industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+				and scrambled it to make a type specimen book. </p>
+		</div>
+	</div>
+	</div>
+</body>
+
+</html>
