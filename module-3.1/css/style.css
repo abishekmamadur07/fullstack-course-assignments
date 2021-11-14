@@ -55,6 +55,8 @@ body {
   color: #000;
   font-weight: bold;
   line-height: 8px;
+  padding-top: 16px;
+  padding-bottom: 10px;
 }
 .menu {
   margin: 20px;
@@ -97,4 +99,10 @@ body {
     font-size: 1em;
     padding: 5px 15px;
   }
+}
+
+
+.navbar ::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
